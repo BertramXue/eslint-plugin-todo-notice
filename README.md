@@ -23,7 +23,7 @@ $ npm install eslint-plugin-todo-notice --save-dev
 
 ## Usage
 
-Add `todo-ddl` to the plugins section of your `.eslintrc` configuration file or `package.json`. You can omit the `eslint-plugin-` prefix:
+Add `todo-notice` to the plugins section of your `.eslintrc` configuration file or `package.json`. You can omit the `eslint-plugin-` prefix:
 
 `package.json` demo
 ```json
