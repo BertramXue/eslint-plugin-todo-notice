@@ -1,4 +1,4 @@
-# eslint-plugin-todo-ddl
+# eslint-plugin-todo-notice
 
 检查代码中的`TODO`注释是否到期或者将要到期
 
@@ -13,13 +13,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-todo-ddl`:
+Next, install `eslint-plugin-todo-notice`:
 
 ```
-$ npm install eslint-plugin-todo-ddl --save-dev
+$ npm install eslint-plugin-todo-notice --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-todo-ddl` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-todo-notice` globally.
 
 ## Usage
 
@@ -29,10 +29,10 @@ Add `todo-ddl` to the plugins section of your `.eslintrc` configuration file or 
 ```json
 "eslintConfig": {
     "plugins": [
-      "todo-ddl"
+      "todo-notice"
     ],
     "rules": {
-      "todo-ddl/diy":1
+      "todo-notice/diy":1
     }
 }
 ```
@@ -79,7 +79,7 @@ You can customize the detected keywords
 **default value**
 ```json
 "rules": {
-    "todo-ddl/diy":[1,{
+    "todo-notice/diy":[1,{
       "flag": ["todo","fixme"],
       "ddl":  ["ddl","deadline"],
       "warnline": "7"
